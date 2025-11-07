@@ -1,11 +1,11 @@
-# 🎨 ChatGPT Image Guessr
+# ChatGPT Image Guessr
 
 A simple and fun terminal game that generates AI images using OpenAI’s API — your goal is to **guess the original prompt**.
 Each correct answer increases your score… but one wrong guess ends it all!
 
 ---
 
-## 🧠 What It Does
+## What It Does
 
 * 🎲 Picks a random word from a built-in list
 * 🖼️ Uses OpenAI’s Image API to generate a picture
@@ -15,21 +15,21 @@ Each correct answer increases your score… but one wrong guess ends it all!
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
-### 🧰 You’ll Need
+### You’ll Need
 
 * **Python** `3.8+`
 * **OpenAI API key**
 * **Libraries:** `openai`, `matplotlib`, `pillow`
 
-### 💾 Install Dependencies
+### Install Dependencies
 
 `pip install openai matplotlib pillow`
 
 ---
 
-## 🔧 Setup
+## Setup
 
 ### 1. Clone the Repository
 
@@ -50,12 +50,12 @@ Then in your code:
 
 ---
 
-## ▶️ How to Play
+## How to Play
 
 Run the game:
 `python program.py`
 
-### 🕹️ Game Flow
+### Game Flow
 
 1. The script prints **“Loading…”** and generates an image.
 2. The image opens in a pop-up window.
@@ -66,15 +66,15 @@ Run the game:
 
 ---
 
-## 🎨 Customization
+## Customization
 
-**🖼️ Change Image Size**
+**Change Image Size**
 `size="512x512"`  — try `1024x1024` for higher quality
 
-**✏️ Edit or Add Prompts**
+**Edit or Add Prompts**
 Modify the `dictionnary` list at the top of the script.
 
-**🔁 Fix Restart Command**
+**Fix Restart Command**
 Replace
 `os.system("program.py")`
 with
